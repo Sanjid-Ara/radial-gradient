@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgba(31, 17, 17, 0.726);
+}
+h1{
+    background-image: linear-gradient(to left,green, orange,white,yellow,green);
+    color: black;
+    height: 50px;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
+}
+.main-box{
+    height: 500px;
+    width: 90%;
+    border: 5px solid black;
+    margin: auto;
+    background-image: linear-gradient(to right,black,darkred,black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+    
+}
+.box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,.box-8,.box-9{
+    height: 40%;
+    width: 15%;
+    border: 3px solid black;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 15px 5px rgb(226, 223, 223);
+}
+.box-1{
+    background-image: radial-gradient(violet,yellow,gray,purple,green);
+}
+.box-2{
+    background-image: radial-gradient(circle,violet,yellow,gray,purple,green);
+}
+.box-3{
+    background-image: radial-gradient(violet 20%,yellow 25%,gray 55%,purple,green);
+}
+.box-4{
+    background-image: radial-gradient(circle, violet 20%,yellow 25%,gray 55%,purple,green);
+}
+.box-5{
+    background-image: repeating-radial-gradient(purple 20%, orange 30%,pink 40%,green 50%)
+}
+.box-6{
+    background-image: radial-gradient(closest-side at 70% 70%,red 20%, orange 30%,pink 40%,rgb(7, 7, 39) 50%)
+}
+.box-7{
+    background-image: radial-gradient(closest-corner at 70% 70%,red 20%, orange 30%,pink 40%,rgb(8, 8, 51) 50%)
+}
+.box-8{
+    background-image: radial-gradient(farthest-side at 70% 70%,red 20%, orange 30%,pink 40%,rgb(8, 8, 68) 50%)
+}
+.box-9{
+    background-image: radial-gradient(farthest-corner at 70% 70%,red 20%, orange 30%,pink 40%,rgb(9, 9, 99) 50%)
+}
